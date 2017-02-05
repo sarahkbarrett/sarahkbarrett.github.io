@@ -1,0 +1,83 @@
+body {
+    font-family: helvetica, tahoma, sans-serif;
+}
+
+#mainnav{
+    background-color: rgba(120,156,152,.4);
+    position:relative;
+    padding: .01em;
+}
+
+nav li {
+    display: inline-block;
+    width: 24%;
+}
+
+#section1 {
+    text-align: center;
+    padding: 1em;
+   max-width: 400px;
+    margin: auto;
+}
+
+#section2 {
+    text-align: center;
+    padding: 1em;
+    max-width: 400px;
+    margin: auto;
+}
+
+#section3 {
+     text-align: center;
+    padding: 1em;
+    max-width: 400px;
+    margin: auto;
+    
+}
+
+.temp{
+    position: relative;
+    float:left;
+    left: 53px;
+    font-size: 30px;
+    
+}
+
+.lowhi{
+    float:left
+}
+
+/*.map {
+    float:right;
+    width: 55%;
+    bottom: 60px;
+}
+*/
+
+.condition{
+    position: relative;
+    
+}
+
+.conditionpic{
+    width: 45%;
+}
+
+.precip {
+    float: left;
+    width: 48%;
+    
+}
+
+.wind {
+    float:right;
+    width: 48%;
+}
+
+.weeklyforecast li{
+    display: inline-block;
+}
+
+.siteplan {
+    width: 60%;
+}
