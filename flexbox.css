@@ -1,0 +1,29 @@
+nav {
+  background-color: blue;
+}
+.parent {
+  border: 1px solid;
+  height: 400px; /* Or whatever */
+  width:  80%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.box {
+  
+}
+.child {
+  margin: 10px;
+  background-color: red;
+  width: 21%;  /* Or whatever */
+  height: 100px; /* Or whatever */
+  flex: 1 0 150px;
+}
+
+.big {
+  width: 45%;
+  flex: 2 0 200px;
+}
+.tall {
+  height: 200px;
+}
