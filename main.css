@@ -3,17 +3,21 @@ body {
 }
 
 #mainnav{
+    display: flex;
+    justify-content: center;
     background-color: rgba(120,156,152,.4);
     position:relative;
     padding: .01em;
 }
 
 nav li {
-    display: inline-block;
-    width: 24%;
+    display: inline-flex;
+    padding-left: 2em;
+    
 }
 
 #section1 {
+    display:flex;
     text-align: center;
     padding: 1em;
    max-width: 400px;
@@ -36,6 +40,7 @@ nav li {
 }
 
 .temp{
+    flex:1 1 auto;
     position: relative;
     float:left;
     left: 53px;
@@ -44,6 +49,7 @@ nav li {
 }
 
 .lowhi{
+    flex 1 1 auto;
     float:left
 }
 
@@ -64,18 +70,21 @@ nav li {
 }
 
 .precip {
+    flex: auto;
     float: left;
     width: 48%;
     
 }
 
 .wind {
+    flex: auto;
     float:right;
     width: 48%;
 }
 
 .weeklyforecast li{
-    display: inline-block;
+    display: inline-flex;
+    box-sizing: border-box;
 }
 
 .siteplan {
@@ -83,5 +92,9 @@ nav li {
 }
 
 h2  {
+    text-align: center;
+}
+
+h3 {
     text-align: center;
 }
