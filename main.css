@@ -17,11 +17,38 @@ nav li {
 }
 
 #section1 {
-    display:flex;
+    display: flex;
+    flex-direction: row;
     text-align: center;
     padding: 1em;
    max-width: 400px;
     margin: auto;
+}
+
+.currentweather {
+    
+    
+}
+
+.tempconditions {
+    
+}
+
+.precip {
+    padding-top: 6.2em;
+    padding-left: 5.5em;
+}
+
+.currenttemp {
+    font-size: 50px;
+    padding-left: 2em;
+    padding-bottom: 0px;
+    padding-top: 1em;
+    margin: 0px;
+}
+
+.lowhi {
+    padding-left: 5em;
 }
 
 #section2 {
@@ -39,20 +66,6 @@ nav li {
     
 }
 
-.temp{
-    flex:1 1 auto;
-    position: relative;
-    float:left;
-    left: 53px;
-    font-size: 30px;
-    
-}
-
-.lowhi{
-    flex 1 1 auto;
-    float:left
-}
-
 /*.map {
     float:right;
     width: 55%;
@@ -60,34 +73,13 @@ nav li {
 }
 */
 
-.condition{
-    position: relative;
-    
-}
-
-.conditionpic{
-    width: 45%;
-}
-
-.precip {
-    flex: auto;
-    float: left;
-    width: 48%;
-    
-}
-
-.wind {
-    flex: auto;
-    float:right;
-    width: 48%;
-}
 
 .weeklyforecast li{
     display: inline-flex;
     box-sizing: border-box;
 }
 
-.siteplan {
+.iphoneplan {
     width: 60%;
 }
 
@@ -97,4 +89,9 @@ h2  {
 
 h3 {
     text-align: center;
+}
+
+@media screen and (min-width: 30em) {
+    font
+    pic
 }
