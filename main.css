@@ -1,5 +1,59 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* TABLET VIEW */
+
+@media screen and (min-device-width: 700px) and (max-device-width: 1078px) {
 body {
     font-family: helvetica, tahoma, sans-serif;
+    display: block;
 }
 
 #mainnav{
@@ -26,9 +80,14 @@ nav li {
 }
 
 .currentweather {
+    width: 100%;
     
     
 }
+
+ .weatherpic {
+        width: 100%;
+    }
 
 .tempconditions {
     
@@ -42,7 +101,6 @@ nav li {
 .currenttemp {
     font-size: 50px;
     padding-left: 2em;
-    padding-bottom: 0px;
     padding-top: 1em;
     margin: 0px;
 }
@@ -66,14 +124,6 @@ nav li {
     
 }
 
-/*.map {
-    float:right;
-    width: 55%;
-    bottom: 60px;
-}
-*/
-
-
 .weeklyforecast li{
     display: inline-flex;
     box-sizing: border-box;
@@ -85,13 +135,58 @@ nav li {
 
 h2  {
     text-align: center;
+    font-size: 60px;
 }
 
 h3 {
     text-align: center;
 }
+}
 
-@media screen and (min-width: 30em) {
-    font
-    pic
+/* MOBILE SCREEN SIZE */
+
+@media screen and (max-device-width: 700px ) {
+    
+    body {
+        font-family: helvetica, tahoma, sans-serif;
+        display: inline-flex;
+        align-content: center;
+        text-align: center;
+    }
+    #mainnav {
+        background-color: rgba(120,156,152,.4);
+        padding: 10px;
+    }
+    h1 {
+       font-size: 40px;
+    }
+    h2 {
+        font-size: 45px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+ 
+    .navigation {
+        display: inline;
+    }
+    .currentweather {
+        font-size: 40px;
+
+    }
+    .currenttemp {
+        font-size: 50px;
+    }
+    .lowhi {
+        font-size: 30px;
+    }
+    .precip {
+        font-size: 30px;
+    }
+}
+
+/* COMPUTER SCREEN SIZE */
+
+@media screen and (min-device-width: 1200px) {
+    
 }
