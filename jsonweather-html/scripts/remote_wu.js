@@ -24,14 +24,14 @@ $(function () {
   function getData(lat, long){
     $.ajax({
      
-            url : "http://api.wunderground.com/api/3d771b03d1aed7e0/geolookup/conditions/q/autoip.json", 
+            url : "//api.wunderground.com/api/3d771b03d1aed7e0/geolookup/conditions/q/autoip.json", 
             dataType : "jsonp",
             success : function(data) {
 				console.log(data);
 				
 				var city = data['location']['city'];
 				var state = data['location']['state'];
-				var temp = data['current_observation']['temp_f'];
+				var temp = parseInt(data['current_observation']['temp_f']);
 				var sum = data["current_observation"]['weather'];
 				var feel = data["current_observation"]["feelslike_f"];
 				var wind = data["current_observation"]["wind_string"];
