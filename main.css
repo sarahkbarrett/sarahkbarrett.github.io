@@ -48,10 +48,106 @@ table {
 }
 
 
-/* TABLET VIEW */
 
 
-/*
+body {
+    font-family: helvetica, tahoma, sans-serif;
+}
+	 h1 {
+		 text-align: center;
+       font-size: 40px;
+    }
+    h3 {
+		text-align: center;
+        font-size: 30px;
+	}
+nav ul{ 
+	background-color: rgba(120,156,152,.4);
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	padding: 10px;
+}
+
+nav li{
+	display: inline;
+	margin-right: 1em;
+}
+
+nav a {
+	text-align: center;
+}
+
+.weatherpic{
+		padding-top: 10px;
+		padding-bottom: 10px;
+	
+	}
+
+.currentweather {
+        font-size: 40px;
+		display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+    }
+
+    .currenttemp {
+        font-size: 50px;
+		text-align: center;
+    }
+    .lowhi {
+        font-size: 30px;
+		text-align: center;
+    }
+    .precip {
+        font-size: 30px;
+		text-align: center;
+    }
+.weeklyforecast {
+	
+	text-align: center;
+}
+
+/* COMPUTER SCREEN SIZE */
+
+
+@media screen and (min-device-width: 1200px) {
+	
+    nav ul {
+        background-color: rgba(120,156,152,.4);
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+	
+}
+	li{
+		padding: 20px;
+		font-size: 20px;
+	}
+	
+	h1 {
+		font-size: 60px;
+		padding-bottom: 10px;
+		text-align: center;
+	}
+	h3 {
+		font-size: 40px;
+		padding-top: 20px;
+		text-align: center;
+	}
+	h4 {
+		font-size: 30px;
+		padding-top: 30px;
+	}
+	
+	
+	
+}
+	/* TABLET VIEW */
 
 @media screen and (min-device-width: 700px) and (max-device-width: 1078px) {
 body {
@@ -127,13 +223,12 @@ nav li {
     
 }
 
-.weeklyforecast li{
-    display: inline-flex;
-    box-sizing: border-box;
+.hourlyforecast {
+    display: none;
 }
 
-.iphoneplan {
-    width: 60%;
+.weeklyforecast ul li{
+		display: none;
 }
 
 h2  {
@@ -144,162 +239,4 @@ h2  {
 h3 {
     text-align: center;
 }
-}
-*/
-
-
-/* MOBILE SCREEN SIZE */
-
-
-@media screen and (max-device-width: 700px ) {
-	
-	
-    
-   /* body {
-        font-family: helvetica, tahoma, sans-serif;
-        display: flex;
-        align-content: center;
-        text-align: center;
-   }
-    .mainnav {
-        background-color: rgba(120,156,152,.4);
-        padding: 10px;
-    }
-    h1 {
-       font-size: 40px;
-    }
-    h2 {
-        font-size: 45px;
-    }
-    h3 {
-        font-size: 30px;
-    }
- 
-    .navigation {
-        display: inline;
-    }
-    .currentweather {
-        font-size: 40px;
-
-    }
-    .currenttemp {
-        font-size: 50px;
-    }
-    .lowhi {
-        font-size: 30px;
-    }
-    .precip {
-        font-size: 30px;
-    }
-*/
-}
-
-
-/* COMPUTER SCREEN SIZE */
-
-/*
-@media screen and (min-device-width: 1200px) {
-	
-
-	body {
-        font-family: helvetica, tahoma, sans-serif;
-        display: flex;
-		justify-content: center;
-		text-align: center;
-		margin: 0;
-		padding: 0;
-    }
-	
-    nav ul {
-        background-color: rgba(120,156,152,.4);
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-	
-}
-	li{
-		padding: 20px;
-	}
-	
-	h1 {
-		font-size: 60px;
-		padding-bottom: 10px;
-	}
-	h3 {
-		font-size: 40px;
-		padding-top: 20px;
-		text-align: left;
-	}
-	h4 {
-		font-size: 30px;
-		padding-top: 30px;
-	}
-	
-	.weatherpic{
-		padding-top: 10px;
-		padding-bottom: 10px;
-	}
-	
-*/
-
-body {
-    font-family: helvetica, tahoma, sans-serif;
-}
-	 h1 {
-		 text-align: center;
-       font-size: 40px;
-    }
-    h3 {
-		text-align: center;
-        font-size: 30px;
-	}
-nav ul{ 
-	background-color: rgba(120,156,152,.4);
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-	padding: 10px;
-}
-
-nav li{
-	display: inline;
-	margin-right: 1em;
-}
-
-nav a {
-	text-align: center;
-}
-
-.weatherpic{
-		padding-top: 10px;
-		padding-bottom: 10px;
-	
-	}
-
-.currentweather {
-        font-size: 40px;
-		display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	
-    }
-
-    .currenttemp {
-        font-size: 50px;
-		text-align: center;
-    }
-    .lowhi {
-        font-size: 30px;
-		text-align: center;
-    }
-    .precip {
-        font-size: 30px;
-		text-align: center;
-    }
-.weeklyforecast {
-	
-	text-align: center;
 }
