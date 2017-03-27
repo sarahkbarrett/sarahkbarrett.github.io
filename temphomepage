@@ -1,0 +1,51 @@
+@@ -1,49 +0,0 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+        <title>Home Page</title>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width">
+    
+    </head>
+    <body>
+        <header>
+            <h1>Sarah's Homepage</h1>
+        </header>    
+        <main>
+            <p>This is the homepage for Sarah's CIT 230 assignments.<br>
+            
+            
+            Click <a href=" https://haileybeaz.github.io/homework/designprinciples.html ">here</a> to view my group's Design Principle Assessment.<br>
+            Click <a href="https://sarahkbarrett.github.io/mobilesitevisitoranalysis.html">here</a> to view my Mobie Site Visitor Analysis<br>
+            Click <a href="https://sarahkbarrett.github.io/siteplan.html">here</a> to view my weather app site plan.<br>
+            Click <a href="https://sarahkbarrett.github.io/weatherwebpage.html">here</a> to view my mobile weather site.
+                
+            </p>
+            
+            <h3>JQuery Assignment</h3>
+            
+            <ul>
+                <li><a href="https://sarahkbarrett.github.io/intro-jquery-files/intro-jquery-files/Lesson4/animatedMenuBegin.htm">Animated Menu</a></li>
+                <li><a href="https://sarahkbarrett.github.io/intro-jquery-files/intro-jquery-files/Lesson4/DropDownMenuBegin.htm">Drop Down Menu</a></li>
+                <li><a href="https://sarahkbarrett.github.io/intro-jquery-files/intro-jquery-files/Lesson4/fruitBasketBegin.htm">Fruit Basket</a></li>
+                <li><a href="https://sarahkbarrett.github.io/intro-jquery-files/intro-jquery-files/Lesson4/InsertHTMLBegin.htm">Insert HTML</a></li>
+                <li><a href="https://sarahkbarrett.github.io/intro-jquery-files/intro-jquery-files/Lesson4/toggleButtonBegin.htm">Toggle Button</a></li></ul>
+			<p>
+				Click <a href="https://sarahkbarrett.github.io/jsonweather-html/index.html">here</a> to view my Current Location Assessment (best viewed on Firefox).
+				<br>
+				Click <a href="https://sarahkbarrett.github.io/jsonweather-html/weatherhome.html">here</a> to view my implementation of the Current Location Assessment to my weather webpage.<br>
+				<br>
+				Click <a href="https://sarahkbarrett.github.io/presentation.html">here</a> to view my Teaching Presentation on HTML Headings.<br>
+				
+			</p>
+            
+            
+            </main>
+        <footer>Last updated: 17 March 2017
+        </footer>
+    </body>
+
+
+</html>
+\ No newline at end of file
