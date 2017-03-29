@@ -1,11 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Coming+Soon);	
-			@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display');
 			 
 			/* FOR SMALL SCREENS */
 
 
 			body 			{
-				font-family: tahoma, arial, sans-serif;
+				font-family: "Oxygen", tahoma, sans-serif;
 				width: 90%;
 				max-width: 960px;
 				margin: auto;
@@ -18,14 +17,11 @@
 			
 
 			#mainnav{
-				background-color: rgba(104,156,152,.4);
+				background-color: rgba(100,230,102,.3);
 				position:relative;
-			}
-			
-			#mainnav{
+				font-family: "Playfair Display", times new roman, serif;
 				color:#0E201F;
-				position:relative;
-				padding-left: 100px;
+				text-align: center;
 			}
 
 			nav {	
@@ -36,13 +32,15 @@
 			nav > ul {
 				list-style-type: none;
 				line-height: 3em;
-				margin: 0;
-							}
+				
+			}
 
 			nav li {
 				display: inline;	
 				padding: .5em;
-				;
+				text-align: center;
+				font-size: 18px;
+				
 			}
 
 			nav a {
@@ -61,7 +59,7 @@
 			}
 			
 			#section1 {
-				background-color: rgba(104,156,152,.4);
+				background-color: rgba(100,230,102,.3);
 				position:relative;
 			
 				
@@ -75,7 +73,7 @@
 			}
 			
 			#section2{
-				background-color: #0E4E49
+				background-color: rgba(100,230,102,.3);
 				
 				
 			}
@@ -101,18 +99,18 @@
 				padding-top: 55px;
 			}
 			
-			.rightcolkayak{
+			.sarah{
 				float: right;
 					width: 48%;
 			}
 			
-			.leftcolrafters{
+			.sarahpic{
 				float: left;
 				width: 48%
 					
 			}
 			
-			.rightcolrush{
+			.aboutsarah{
 				float: right;
 				width: 48%
 				}
@@ -130,19 +128,25 @@
 			}
 			
 			p {
-				text-align: center;
+				text-align: justify;
+				font-family: "Oxygen", tahoma, sans-serif;
 			}			
 
 				h2,h3,h5,h6 {
 				color:#92D08B;
-				font-family: "permanent marker", tahoma, arial;
+				font-family: "Playfair Display", times new roman, serif;
 				text-align: center;
 							}
 
 				h1 {
 					color:#0E4E49;
-						font-family: "permanent marker", tahoma, arial;
-				    text-align: center;				}
+					font-family: "Playfair Display", times new roman, serif;
+					font-size: 45px;
+					font-kerning: 6px;
+				    text-align: center;	
+					padding: 10px;
+					padding-top: 20px;
+				}
 
 	/* FOR MEDIUM SCREENS */
 	
