@@ -54,7 +54,7 @@ h1 {
     background-image: url(../images/nps-logo_50.gif), url(../images/grand-canyon_small.jpg);
     background-repeat: no-repeat;
     background-size: contain,cover;
-    background-position: top, right;
+    background-position: right, top;
 }
 
 
