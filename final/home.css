@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen|Playfair+Display');
 			 
-			/* FOR SMALL SCREENS */
+			/* FOR LAPTOP SCREENS */
 
 
 			body 			{
@@ -155,9 +155,150 @@
 		}
 
 
-	/* FOR LARGE SCREENS */
+	/* FOR SMALL SCREENS */
 	
-	@media screen and (min-device-width: 1200px) {
+	@media screen and (max-device-width: 700px) {
+		
+		body 			{
+				font-family: "Oxygen", tahoma, sans-serif;
+				width: 90%;
+				max-width: px;
+				margin: auto;
+				
+					
+			}
+			
+			section {
+				padding: 20px;
+			}
+			
+
+			#mainnav{
+				background-color: rgba(100,230,102,.3);
+				position:relative;
+				font-family: "Playfair Display", times new roman, serif;
+				color:#0E201F;
+				text-align: center;
+			}
+		
+			nav ul {
+				padding: 0px;
+			}
+
+			nav li {
+				display: inline;	
+				text-align: center;
+				font-size: 12px;
+			}
+
+			nav a:link, nav a:visited{
+					color:#0E4E49;
+					text-decoration:none;
+			}
+
+			nav a:hover {
+				color: rgb(104,156,152) ;
+				background-color: #0E4E49;
+				text-decoration: underline;
+			}
+			
+			#section1 {
+				background-color: rgba(100,230,102,.3);
+				position:relative;
+			}
+
+				#section1 {
+					overflow: auto;
+				clear:both	
+			}
+			
+			#section2{
+				background-color: rgba(100,230,102,.3);	
+			}
+			
+			#section2{
+					overflow: auto;
+				clear:both
+				background-color: #0E4E49
+				position:relative;
+				top: 10px;
+				
+			}
+			
+			#section3{
+				text-align: center;
+				max-width: 300px;
+				margin: auto;
+			}
+			
+			.about{
+				float: left;
+					width: 100%;
+				padding-top: 20px;
+			}
+			
+			.sarah{
+				float: right;
+					width: 100%;
+			}
+			
+			.sarahpic{
+				float: left;
+				width: 50%;
+				padding-left: 80px;
+					
+			}
+			
+			.aboutsarah{
+				float: right;
+				width: 100%
+				}
+			
+			footer {
+				text-align: center;
+			}
+			
+			.socialmedia{
+				float: right;
+			}
+			
+			.copyright {
+				float: left;
+			}
+
+			main {
+				text-align: center;
+			}
+			
+			p {
+				text-align: justify;
+				font-family: "Oxygen", tahoma, sans-serif;
+				font-size: 12px;
+			}			
+
+				h2,h3,h5,h6 {
+				color:#92D08B;
+				font-family: "Playfair Display", times new roman, serif;
+				text-align: center;
+							}
+		
+				h2 {
+					font-size: 15px;
+				}
+			
+			h3 {
+				font-size: 15px;
+			}
+
+				h1 {
+					color:#0E4E49;
+					font-family: "Playfair Display", times new roman, serif;
+					font-size: 20px;
+					/*font-kerning: 6px;*/
+				    text-align: center;	
+					padding: 5px;
+					padding-top: 5px;
+				}
 		
 		
 }
