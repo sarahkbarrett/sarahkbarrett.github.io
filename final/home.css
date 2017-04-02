@@ -6,8 +6,9 @@
 			body 			{
 				font-family: "Oxygen", tahoma, sans-serif;
 				width: 90%;
-				max-width: 960px;
+				max-width: px;
 				margin: auto;
+				
 					
 			}
 			
@@ -106,7 +107,8 @@
 			
 			.sarahpic{
 				float: left;
-				width: 48%
+				width: 30%;
+				padding-left: 80px;
 					
 			}
 			
@@ -125,6 +127,10 @@
 			
 			.copyright {
 				float: left;
+			}
+
+			main {
+				text-align: center;
 			}
 			
 			p {
