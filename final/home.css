@@ -252,13 +252,14 @@
 				width: 100%
 				}
 			
-			footer {
+			.footer {
 				text-align: center;
+				font-size: 5px;
 			}
 			
-			.socialmedia{
-				float: right;
-			}
+		/*	.socialmedia{
+				text-align: center;
+			} */
 			
 			.copyright {
 				float: left;
