@@ -56,27 +56,21 @@
 			nav a:hover {
 				color: rgb(104,156,152) ;
 				background-color: #0E4E49;
-					text-decoration: underline;
+				text-decoration: underline;
 			}
 			
 			#section1 {
 				background-color: rgba(100,230,102,.3);
 				position:relative;
-			
-				
 			}
 
 				#section1 {
 					overflow: auto;
-				clear:both
-					
-					
+				clear:both	
 			}
 			
 			#section2{
-				background-color: rgba(100,230,102,.3);
-				
-				
+				background-color: rgba(100,230,102,.3);	
 			}
 			
 			#section2{
