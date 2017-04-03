@@ -256,14 +256,6 @@
 				text-align: center;
 				font-size: 5px;
 			}
-			
-		/*	.socialmedia{
-				text-align: center;
-			} */
-			
-			.copyright {
-				float: left;
-			}
 
 			main {
 				text-align: center;
@@ -273,8 +265,8 @@
 				text-align: justify;
 				font-family: "Oxygen", tahoma, sans-serif;
 				font-size: 12px;
-			}			
-
+			}		
+		
 				h2,h3,h5,h6 {
 				color:#92D08B;
 				font-family: "Playfair Display", times new roman, serif;
