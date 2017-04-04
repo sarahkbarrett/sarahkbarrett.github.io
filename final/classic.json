@@ -1,21 +1,21 @@
 {
 	"classic1": {
-		"imgSrc": "https://girlwithcurves.com/wp-content/uploads/2015/04/17094246352_fe8984b13a_h.jpg",
+		"imgSrc": "../images/classic1.jpg",
 		"link": "https://girlwithcurves.com/post/116011285982/chambray-gingham"
 	},
 	
 	"classic2": {
-		"imgSrc": "http://musingsofacurvylady.com/wp-content/uploads/2017/02/DSC_1817-e1487061681723.jpg",
+		"imgSrc": "../images/classic2.jpg",
 		"link": "http://gabifresh.com/2016/09/lace-trench-plus-size-elvi-2016/"
 	},
 	
 	"classic3": {
-		"imgSrc": "http://gabifresh.com/wp-content/uploads/2016/08/evans5.jpg",
+		"imgSrc": "../images/classic3.jpg",
 		"link": "http://gabifresh.com/2016/09/lace-trench-plus-size-elvi-2016/"
 	},
 	
 	"classic4": {
-		"imgSrc": "http://circa88.com/wp-content/uploads/2016/09/IMG_6540-678x1024.jpg",
+		"imgSrc": "/images/classic4.jpg",
 		"link": "http://circa88.com/featured/current-obsession-boutique/"
 	}
 	
