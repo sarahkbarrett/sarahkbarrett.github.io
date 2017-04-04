@@ -1,22 +1,22 @@
 {
 	"comfy1": {
-		"imgSrc": "../images/comfy1.jpg",
+		"imgSrc": "comfy1large.jpg",
 		"link": "http://thecurvyfashionista.com/2016/11/studio-untold-by-ulla-popken/"
 	},
 	
 	"comfy2": {
-		"imgSrc": "http://circa88.com/wp-content/uploads/2016/01/fringe-1-1000x1000.jpg",
+		"imgSrc": "comfy2large.jpg",
 		"link": "http://circa88.com/fashion/poncho-fever/"
 	},
 	
 	
 	"comfy3": {
-		"imgSrc": "http://musingsofacurvylady.com/wp-content/uploads/2016/03/MG_1602amandalenhardt-e1457408267106.jpg",
+		"imgSrc": "comfy3large.jpg",
 		"link": "http://musingsofacurvylady.com/spring-step/"
 	},
 	
 	"comfy4": {
-		"imgSrc": "http://i1.wp.com/thenaturalfashionista.com/wp-content/uploads/2016/06/IMG_9544.jpg?w=2448",
+		"imgSrc": "comfy4large.jpg",
 		"link": "http://thenaturalfashionista.com/creating-a-capsule-wardrobe/"
 	}
 	

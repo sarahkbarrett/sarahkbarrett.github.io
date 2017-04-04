@@ -1,21 +1,21 @@
 {
 	"classic1": {
-		"imgSrc": "../images/classic1.jpg",
+		"imgSrc": "classic1large.jpg",
 		"link": "https://girlwithcurves.com/post/116011285982/chambray-gingham"
 	},
 	
 	"classic2": {
-		"imgSrc": "../images/classic2.jpg",
+		"imgSrc": "classic2large.jpg",
 		"link": "http://gabifresh.com/2016/09/lace-trench-plus-size-elvi-2016/"
 	},
 	
 	"classic3": {
-		"imgSrc": "../images/classic3.jpg",
+		"imgSrc": "classic3large.jpg",
 		"link": "http://gabifresh.com/2016/09/lace-trench-plus-size-elvi-2016/"
 	},
 	
 	"classic4": {
-		"imgSrc": "/images/classic4.jpg",
+		"imgSrc": "classic4large.jpg",
 		"link": "http://circa88.com/featured/current-obsession-boutique/"
 	}
 	
