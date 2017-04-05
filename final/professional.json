@@ -2,25 +2,19 @@
 	"professional1": {
 		"imgSrc": "professional1large.jpg",
 		"link": "http://gabifresh.com/2016/04/maurices-tour/",
-		"srcset" :"professional1medium.jpg 1000w, professional1small.jpg 700w"
+		"srcset" :"professional1large.jpg 2000w, professional1medium.jpg 1000w, professional1small.jpg 700w"
 	},
 	
 	"professional2": {
 		"imgSrc": "professional2large.jpg",
 		"link": "https://girlwithcurves.com/post/132058610152/olive",
-		"srcset" :"professional2medium.jpg 1000w, professional2small.jpg 700w"
-	},
-	
-	"professional3": {
-		"imgSrc": "professional3large.jpg",
-		"link": "https://girlwithcurves.com/wp-content/uploads/2015/04/17204242456_f810f0410d_c.jpg",
-		"srcset" :"professional3medium.jpg 1000w, professional3small.jpg 700w"
+		"srcset" :" professional2large.jpg 2000w, professional2medium.jpg 1000w, professional2small.jpg 700w"
 	},
 	
 	"professional4": {
 		"imgSrc": "professional4large.jpg",
 		"link": "http://beauticurve.com/la-vacay-slay-my-top-5-fav-spots/",
-		"srcset" :"professional4medium.jpg 1000w, professional4small.jpg 700w"
+		"srcset" :"professional4large.jpg 2000w, professional4medium.jpg 1000w, professional4small.jpg 700w"
 		
 	}
 	
