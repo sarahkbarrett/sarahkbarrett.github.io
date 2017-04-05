@@ -2,7 +2,8 @@
 	"comfy1": {
 		"imgSrc": "comfy1large.jpg",
 		"link": "http://thecurvyfashionista.com/2016/11/studio-untold-by-ulla-popken/",
-		"srcset" :"comfy1large.jpg 2000w, comfy1medium.jpg 1000w, comfy1small.jpg 700w"
+		"srcset" :"comfy1large.jpg 2000w, comfy1medium.jpg 1000w, comfy1small.jpg 700w",
+		"alt": "photo of a comfy casual outfit"
 	},
 	
 	"comfy2": {
