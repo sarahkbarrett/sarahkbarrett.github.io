@@ -6,7 +6,7 @@ $.getJSON( "comfycasual.json", function( data ) {
   var items = [];
   $.each( data, function( key, val ) {
       console.log("Hello")
-      items.push( "<li><a href='" + val["link"] + "'><img src='" + val["imgSrc"] + "' class='comfy'/></a></li>" );
+      items.push( "<li><a href='" + val["link"] + "'><img src='" + val["imgSrc"] +  "' srcset = '"+val["srcset"] + "' class='comfy'/></a></li>" );
       
   });
  

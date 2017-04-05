@@ -2,23 +2,26 @@
 	"comfy1": {
 		"imgSrc": "comfy1large.jpg",
 		"link": "http://thecurvyfashionista.com/2016/11/studio-untold-by-ulla-popken/",
-		"srcset" :"comfy1medium.jpg 1000w, comfy1large.jpg 2000w"
+		"srcset" :"comfy1medium.jpg 1000w, comfy1small.jpg 700w"
 	},
 	
 	"comfy2": {
 		"imgSrc": "comfy2large.jpg",
-		"link": "http://circa88.com/fashion/poncho-fever/"
+		"link": "http://circa88.com/fashion/poncho-fever/",
+		"srcset" :"comfy2medium.jpg 1000w, comfy2small.jpg 700w"
 	},
 	
 	
 	"comfy3": {
 		"imgSrc": "comfy3large.jpg",
-		"link": "http://musingsofacurvylady.com/spring-step/"
+		"link": "http://musingsofacurvylady.com/spring-step/",
+		"srcset" :"comfy3medium.jpg 1000w, comfy3small.jpg 700w"
 	},
 	
 	"comfy4": {
 		"imgSrc": "comfy4large.jpg",
-		"link": "http://thenaturalfashionista.com/creating-a-capsule-wardrobe/"
+		"link": "http://thenaturalfashionista.com/creating-a-capsule-wardrobe/",
+		"srcset" :"comfy4medium.jpg 1000w, comfy4small.jpg 700w"
 	}
 	
 	
