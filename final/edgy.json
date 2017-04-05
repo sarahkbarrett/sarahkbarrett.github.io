@@ -1,22 +1,26 @@
 {
 	"edgy1": {
 		"imgSrc": "edgy1large.jpg",
-		"link": "http://musingsofacurvylady.com/destination-galm/"
+		"link": "http://musingsofacurvylady.com/destination-galm/",
+		"srcset" :"edgy1medium.jpg 1000w, edgy1small.jpg 700w"
 	},
 	
 	"edgy2": {
 		"imgSrc": "edgy2large.jpg",
-		"link": "http://beauticurve.com/velvet-and-florals/"
+		"link": "http://beauticurve.com/velvet-and-florals/",
+		"srcset" :"edgy2medium.jpg 1000w, edgy2small.jpg 700w"
 	},
 	
 	"edgy3": {
 		"imgSrc": "edgy3large.jpg",
-		"link": "http://www.curvescurlsandclothes.com/blog/page/3/"
+		"link": "http://www.curvescurlsandclothes.com/blog/page/3/",
+		"srcset" :"edgy3medium.jpg 1000w, edgy3small.jpg 700w"
 	},
 	
 	"edgy4": {
 		"imgSrc": "edgy4large.jpg",
-		"link": "http://gisellafrancisca.com/2017/03/27/sheer-mesh-kjole-plus-size/"
+		"link": "http://gisellafrancisca.com/2017/03/27/sheer-mesh-kjole-plus-size/",
+		"srcset" :"edgy4medium.jpg 1000w, edgy4small.jpg 700w"
 	}
 	
 }

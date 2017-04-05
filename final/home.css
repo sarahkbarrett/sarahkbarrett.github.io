@@ -3,9 +3,6 @@
 
 /* COMPUTER SCREEN SIZE */
 
-
-/*@media screen and (min-device-width: 1000px) {*/
-
 			body 			{
 				font-family: "Oxygen", tahoma, sans-serif;
 				width: 90%;
@@ -103,10 +100,20 @@
 			}
 			
 			.sarah{
-				float: right;
-					width: 48%;
+				position: relative;
+				padding-bottom: 56.25%; /* 16:9 */
+				padding-top: 25px;
+				height: 0;
 			}
 			
+
+			.sarah iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+}
 			.sarahpic{
 				float: left;
 				width: 25%;
@@ -160,75 +167,27 @@
 		justify-content: center;
 		list-style: none;
 	}
-/*}*/
+
+#video {
+	
+	
+}
+
 
 /* FOR SMALL SCREENS */
 
 @media screen and (max-width: 700px) {
 		
-		body 			{
-				font-family: "Oxygen", tahoma, sans-serif;
-				width: 90%;
-				max-width: px;
-				margin: auto;
-			}
-			
-			section {
-				padding: 20px;
-			}
-			
-
-			#mainnav{
-				background-color: rgba(100,230,102,.3);
-				position:relative;
-				font-family: "Playfair Display", times new roman, serif;
-				color:#0E201F;
-				text-align: center;
-			}
-
+			#video {
+				position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+	}
+	
 			nav li {
-				display: inline;	
-				align-content: justify;
 				font-size: 12px;
-			}
-
-			nav a:link, nav a:visited{
-					color:#0E4E49;
-					text-decoration:none;
-			}
-
-			nav a:hover {
-				color: rgb(104,156,152) ;
-				background-color: #0E4E49;
-				text-decoration: underline;
-			}
-			
-			#section1 {
-				background-color: rgba(100,230,102,.3);
-				position:relative;
-			}
-
-				#section1 {
-					overflow: auto;
-				clear:both	
-			}
-			
-			#section2{
-				background-color: rgba(100,230,102,.3);	
-			}
-			
-			#section2{
-					overflow: auto;
-				clear:both
-				background-color: #0E4E49
-				position:relative;
-				top: 10px;
-				
-			}
-			
-			#section3{
-				text-align: center;
-				margin: auto;
 			}
 			
 			.about{
