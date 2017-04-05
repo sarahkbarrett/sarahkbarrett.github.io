@@ -313,7 +313,7 @@
 			nav li {
 				display: inline;	
 				text-align: center;
-				font-size: 12px;
+				font-size: 15px;
 			}
 
 			nav a:link, nav a:visited{
@@ -377,7 +377,7 @@
 			p {
 				text-align: justify;
 				font-family: "Oxygen", tahoma, sans-serif;
-				font-size: 12px;
+				font-size: 17px;
 			}		
 		
 				h2,h3,h5,h6 {
@@ -387,17 +387,17 @@
 							}
 		
 				h2 {
-					font-size: 15px;
+					font-size: 20px;
 				}
 			
 				h3 {
-					font-size: 15px;
+					font-size: 20px;
 				}
 
 				h1 {
 					color:#0E4E49;
 					font-family: "Playfair Display", times new roman, serif;
-					font-size: 20px;
+					font-size: 28px;
 					
 				    text-align: center;	
 					padding: 5px;
